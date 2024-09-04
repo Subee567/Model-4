@@ -34,7 +34,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import com.example.model3.R
+import com.example.model4.R
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -85,7 +85,7 @@ fun SignupPage(modifier: Modifier = Modifier, navController: NavController, auth
             label = { Text(text = "Email") },
             modifier = Modifier.fillMaxWidth(),
             leadingIcon = {
-                Icon(painter = painterResource(id = R.drawable.baseline_person_outline_24), contentDescription = "")
+                Icon(painter = painterResource(id = R.drawable.ic_launcher_background), contentDescription = "")
             }
         )
 
@@ -98,7 +98,7 @@ fun SignupPage(modifier: Modifier = Modifier, navController: NavController, auth
             modifier = Modifier.fillMaxWidth(),
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
             leadingIcon = {
-                Icon(painter = painterResource(id = R.drawable.baseline_lock_24), contentDescription = "")
+                Icon(painter = painterResource(id = R.drawable.__bit_city_1920x1080), contentDescription = "")
             },
             trailingIcon = {
                 val iconImage = if (passwordVisible) {
